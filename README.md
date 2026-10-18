@@ -8,6 +8,7 @@ Standalone, mobile-first Bundesliga-only dashboard. It does not include Brasilei
 - Full fixture schedule: all 34 rounds / 306 official pairings from Bundesliga matchday pages; the pages for matchdays 8–34 were retrieved 10:59–11:00 BRT on 18 October.
 - Final scores: 52 confirmed results (rounds 1–5 and seven completed matches in round 6). Two round-6 matches on 18 October are explicitly unfinished at the result cutoff and have no score recorded.
 - Future results are never inferred. The source only publishes date ranges for several rounds; those are preserved as ranges, and no precise date is guessed. Rounds 16 and 24 have no date in the snapshots used.
+- Kickoff times are copied exactly from official fixture cards, but the captured cards do not label a timezone, so the dashboard labels them as source times rather than converting them.
 - The Bundesliga table is recomputed from confirmed finals and compared club-by-club with the Bundesliga official table and ESPN's independent 2026/27 table. The seven completed round-6 scorelines are also spot-checked against Sofascore.
 
 ## Dashboard features

@@ -1,4 +1,4 @@
-round,date,date_range,date_label,kickoff_local,timezone,home,away,home_goals,away_goals,status,official_match_url
+round,date,date_range,date_label,kickoff_time,timezone,home,away,home_goals,away_goals,status,official_match_url
 1,2026-08-28,,Friday 28 August,,,Bayern Munich,VfB Stuttgart,5,1,finished,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/1/fc-bayern-muenchen-vs-vfb-stuttgart/liveticker
 1,2026-08-29,,Saturday 29 August,,,Borussia Dortmund,Hamburg,2,0,finished,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/1/borussia-dortmund-vs-hamburger-sv/liveticker
 1,2026-08-29,,Saturday 29 August,,,Cologne,Hoffenheim,3,2,finished,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/1/1-fc-koeln-vs-tsg-hoffenheim/liveticker
@@ -51,53 +51,53 @@ round,date,date_range,date_label,kickoff_local,timezone,home,away,home_goals,awa
 6,2026-10-17,,Saturday 17 October,,,Schalke,Mainz,0,1,finished,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/6/fc-schalke-04-vs-1-fsv-mainz-05/liveticker
 6,2026-10-17,,Saturday 17 October,,,Union Berlin,Borussia Dortmund,0,0,finished,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/6/1-fc-union-berlin-vs-borussia-dortmund/liveticker
 6,2026-10-17,,Saturday 17 October,,,Werder Bremen,Paderborn,2,2,finished,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/6/sv-werder-bremen-vs-sc-paderborn-07/liveticker
-6,2026-10-18,,Sunday 18 October,13:30,Europe/Berlin,Bayer Leverkusen,Freiburg,,,unfinished_at_cutoff,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/6/bayer-04-leverkusen-vs-sport-club-freiburg/liveticker
-6,2026-10-18,,Sunday 18 October,15:30,Europe/Berlin,Borussia Mönchengladbach,Hoffenheim,,,unfinished_at_cutoff,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/6/borussia-moenchengladbach-vs-tsg-hoffenheim/liveticker
-7,2026-10-23,,Friday 23 October,18:30,Europe/Berlin,VfB Stuttgart,Borussia Mönchengladbach,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/7/vfb-stuttgart-vs-borussia-moenchengladbach/liveticker
-7,2026-10-24,,Saturday 24 October,13:30,Europe/Berlin,Augsburg,Union Berlin,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/7/fc-augsburg-vs-1-fc-union-berlin/liveticker
-7,2026-10-24,,Saturday 24 October,16:30,Europe/Berlin,Borussia Dortmund,Eintracht Frankfurt,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/7/borussia-dortmund-vs-eintracht-frankfurt/liveticker
-7,2026-10-24,,Saturday 24 October,13:30,Europe/Berlin,Cologne,Schalke,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/7/1-fc-koeln-vs-fc-schalke-04/liveticker
-7,2026-10-24,,Saturday 24 October,13:30,Europe/Berlin,Mainz,Werder Bremen,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/7/1-fsv-mainz-05-vs-sv-werder-bremen/liveticker
-7,2026-10-24,,Saturday 24 October,13:30,Europe/Berlin,Paderborn,Hamburg,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/7/sc-paderborn-07-vs-hamburger-sv/liveticker
-7,2026-10-24,,Saturday 24 October,13:30,Europe/Berlin,RB Leipzig,Elversberg,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/7/rb-leipzig-vs-sv-elversberg/liveticker
-7,2026-10-25,,Sunday 25 October,16:30,Europe/Berlin,Freiburg,Bayern Munich,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/7/sport-club-freiburg-vs-fc-bayern-muenchen/liveticker
-7,2026-10-25,,Sunday 25 October,14:30,Europe/Berlin,Hoffenheim,Bayer Leverkusen,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/7/tsg-hoffenheim-vs-bayer-04-leverkusen/liveticker
-8,2026-10-30,,Friday 30 October,19:30,Europe/Berlin,Elversberg,Mainz,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/8/sv-elversberg-vs-1-fsv-mainz-05/liveticker
-8,2026-10-31,,Saturday 31 October,14:30,Europe/Berlin,Augsburg,Freiburg,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/8/fc-augsburg-vs-sport-club-freiburg/liveticker
-8,2026-10-31,,Saturday 31 October,14:30,Europe/Berlin,Bayer Leverkusen,VfB Stuttgart,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/8/bayer-04-leverkusen-vs-vfb-stuttgart/liveticker
-8,2026-10-31,,Saturday 31 October,17:30,Europe/Berlin,Bayern Munich,Borussia Dortmund,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/8/fc-bayern-muenchen-vs-borussia-dortmund/liveticker
-8,2026-10-31,,Saturday 31 October,14:30,Europe/Berlin,Borussia Mönchengladbach,Paderborn,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/8/borussia-moenchengladbach-vs-sc-paderborn-07/liveticker
-8,2026-10-31,,Saturday 31 October,14:30,Europe/Berlin,Schalke,RB Leipzig,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/8/fc-schalke-04-vs-rb-leipzig/liveticker
-8,2026-10-31,,Saturday 31 October,14:30,Europe/Berlin,Werder Bremen,Hoffenheim,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/8/sv-werder-bremen-vs-tsg-hoffenheim/liveticker
-8,2026-11-01,,Sunday 1 November,16:30,Europe/Berlin,Eintracht Frankfurt,Hamburg,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/8/eintracht-frankfurt-vs-hamburger-sv/liveticker
-8,2026-11-01,,Sunday 1 November,14:30,Europe/Berlin,Union Berlin,Cologne,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/8/1-fc-union-berlin-vs-1-fc-koeln/liveticker
-9,2026-11-06,,Friday 6 November,19:30,Europe/Berlin,Hamburg,Borussia Mönchengladbach,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/9/hamburger-sv-vs-borussia-moenchengladbach/liveticker
-9,2026-11-07,,Saturday 7 November,14:30,Europe/Berlin,Borussia Dortmund,Elversberg,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/9/borussia-dortmund-vs-sv-elversberg/liveticker
-9,2026-11-07,,Saturday 7 November,14:30,Europe/Berlin,Mainz,Bayern Munich,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/9/1-fsv-mainz-05-vs-fc-bayern-muenchen/liveticker
-9,2026-11-07,,Saturday 7 November,14:30,Europe/Berlin,Paderborn,Eintracht Frankfurt,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/9/sc-paderborn-07-vs-eintracht-frankfurt/liveticker
-9,2026-11-07,,Saturday 7 November,14:30,Europe/Berlin,RB Leipzig,Augsburg,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/9/rb-leipzig-vs-fc-augsburg/liveticker
-9,2026-11-07,,Saturday 7 November,17:30,Europe/Berlin,VfB Stuttgart,Werder Bremen,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/9/vfb-stuttgart-vs-sv-werder-bremen/liveticker
-9,2026-11-08,,Sunday 8 November,14:30,Europe/Berlin,Cologne,Bayer Leverkusen,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/9/1-fc-koeln-vs-bayer-04-leverkusen/liveticker
-9,2026-11-08,,Sunday 8 November,16:30,Europe/Berlin,Freiburg,Union Berlin,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/9/sport-club-freiburg-vs-1-fc-union-berlin/liveticker
-9,2026-11-08,,Sunday 8 November,18:30,Europe/Berlin,Hoffenheim,Schalke,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/9/tsg-hoffenheim-vs-fc-schalke-04/liveticker
-10,2026-11-20,,Friday 20 November,19:30,Europe/Berlin,Bayern Munich,Cologne,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/10/fc-bayern-muenchen-vs-1-fc-koeln/liveticker
-10,2026-11-21,,Saturday 21 November,14:30,Europe/Berlin,Bayer Leverkusen,Paderborn,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/10/bayer-04-leverkusen-vs-sc-paderborn-07/liveticker
-10,2026-11-21,,Saturday 21 November,14:30,Europe/Berlin,Borussia Mönchengladbach,Borussia Dortmund,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/10/borussia-moenchengladbach-vs-borussia-dortmund/liveticker
-10,2026-11-21,,Saturday 21 November,14:30,Europe/Berlin,Eintracht Frankfurt,Hoffenheim,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/10/eintracht-frankfurt-vs-tsg-hoffenheim/liveticker
-10,2026-11-21,,Saturday 21 November,14:30,Europe/Berlin,Elversberg,Freiburg,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/10/sv-elversberg-vs-sport-club-freiburg/liveticker
-10,2026-11-21,,Saturday 21 November,17:30,Europe/Berlin,Schalke,VfB Stuttgart,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/10/fc-schalke-04-vs-vfb-stuttgart/liveticker
-10,2026-11-21,,Saturday 21 November,14:30,Europe/Berlin,Union Berlin,RB Leipzig,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/10/1-fc-union-berlin-vs-rb-leipzig/liveticker
-10,2026-11-22,,Sunday 22 November,14:30,Europe/Berlin,Augsburg,Mainz,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/10/fc-augsburg-vs-1-fsv-mainz-05/liveticker
-10,2026-11-22,,Sunday 22 November,16:30,Europe/Berlin,Werder Bremen,Hamburg,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/10/sv-werder-bremen-vs-hamburger-sv/liveticker
-11,2026-11-27,,Friday 27 November,19:30,Europe/Berlin,Werder Bremen,Borussia Mönchengladbach,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/11/sv-werder-bremen-vs-borussia-moenchengladbach/liveticker
-11,2026-11-28,,Saturday 28 November,14:30,Europe/Berlin,Cologne,Elversberg,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/11/1-fc-koeln-vs-sv-elversberg/liveticker
-11,2026-11-28,,Saturday 28 November,14:30,Europe/Berlin,Hamburg,Bayern Munich,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/11/hamburger-sv-vs-fc-bayern-muenchen/liveticker
-11,2026-11-28,,Saturday 28 November,14:30,Europe/Berlin,Mainz,Union Berlin,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/11/1-fsv-mainz-05-vs-1-fc-union-berlin/liveticker
-11,2026-11-28,,Saturday 28 November,14:30,Europe/Berlin,Paderborn,Schalke,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/11/sc-paderborn-07-vs-fc-schalke-04/liveticker
-11,2026-11-28,,Saturday 28 November,17:30,Europe/Berlin,VfB Stuttgart,Eintracht Frankfurt,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/11/vfb-stuttgart-vs-eintracht-frankfurt/liveticker
-11,2026-11-29,,Sunday 29 November,18:30,Europe/Berlin,Borussia Dortmund,Bayer Leverkusen,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/11/borussia-dortmund-vs-bayer-04-leverkusen/liveticker
-11,2026-11-29,,Sunday 29 November,14:30,Europe/Berlin,Freiburg,RB Leipzig,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/11/sport-club-freiburg-vs-rb-leipzig/liveticker
-11,2026-11-29,,Sunday 29 November,16:30,Europe/Berlin,Hoffenheim,Augsburg,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/11/tsg-hoffenheim-vs-fc-augsburg/liveticker
+6,2026-10-18,,Sunday 18 October,13:30,,Bayer Leverkusen,Freiburg,,,unfinished_at_cutoff,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/6/bayer-04-leverkusen-vs-sport-club-freiburg/liveticker
+6,2026-10-18,,Sunday 18 October,15:30,,Borussia Mönchengladbach,Hoffenheim,,,unfinished_at_cutoff,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/6/borussia-moenchengladbach-vs-tsg-hoffenheim/liveticker
+7,2026-10-23,,Friday 23 October,18:30,,VfB Stuttgart,Borussia Mönchengladbach,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/7/vfb-stuttgart-vs-borussia-moenchengladbach/liveticker
+7,2026-10-24,,Saturday 24 October,13:30,,Augsburg,Union Berlin,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/7/fc-augsburg-vs-1-fc-union-berlin/liveticker
+7,2026-10-24,,Saturday 24 October,16:30,,Borussia Dortmund,Eintracht Frankfurt,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/7/borussia-dortmund-vs-eintracht-frankfurt/liveticker
+7,2026-10-24,,Saturday 24 October,13:30,,Cologne,Schalke,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/7/1-fc-koeln-vs-fc-schalke-04/liveticker
+7,2026-10-24,,Saturday 24 October,13:30,,Mainz,Werder Bremen,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/7/1-fsv-mainz-05-vs-sv-werder-bremen/liveticker
+7,2026-10-24,,Saturday 24 October,13:30,,Paderborn,Hamburg,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/7/sc-paderborn-07-vs-hamburger-sv/liveticker
+7,2026-10-24,,Saturday 24 October,13:30,,RB Leipzig,Elversberg,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/7/rb-leipzig-vs-sv-elversberg/liveticker
+7,2026-10-25,,Sunday 25 October,16:30,,Freiburg,Bayern Munich,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/7/sport-club-freiburg-vs-fc-bayern-muenchen/liveticker
+7,2026-10-25,,Sunday 25 October,14:30,,Hoffenheim,Bayer Leverkusen,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/7/tsg-hoffenheim-vs-bayer-04-leverkusen/liveticker
+8,2026-10-30,,Friday 30 October,19:30,,Elversberg,Mainz,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/8/sv-elversberg-vs-1-fsv-mainz-05/liveticker
+8,2026-10-31,,Saturday 31 October,14:30,,Augsburg,Freiburg,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/8/fc-augsburg-vs-sport-club-freiburg/liveticker
+8,2026-10-31,,Saturday 31 October,14:30,,Bayer Leverkusen,VfB Stuttgart,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/8/bayer-04-leverkusen-vs-vfb-stuttgart/liveticker
+8,2026-10-31,,Saturday 31 October,17:30,,Bayern Munich,Borussia Dortmund,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/8/fc-bayern-muenchen-vs-borussia-dortmund/liveticker
+8,2026-10-31,,Saturday 31 October,14:30,,Borussia Mönchengladbach,Paderborn,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/8/borussia-moenchengladbach-vs-sc-paderborn-07/liveticker
+8,2026-10-31,,Saturday 31 October,14:30,,Schalke,RB Leipzig,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/8/fc-schalke-04-vs-rb-leipzig/liveticker
+8,2026-10-31,,Saturday 31 October,14:30,,Werder Bremen,Hoffenheim,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/8/sv-werder-bremen-vs-tsg-hoffenheim/liveticker
+8,2026-11-01,,Sunday 1 November,16:30,,Eintracht Frankfurt,Hamburg,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/8/eintracht-frankfurt-vs-hamburger-sv/liveticker
+8,2026-11-01,,Sunday 1 November,14:30,,Union Berlin,Cologne,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/8/1-fc-union-berlin-vs-1-fc-koeln/liveticker
+9,2026-11-06,,Friday 6 November,19:30,,Hamburg,Borussia Mönchengladbach,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/9/hamburger-sv-vs-borussia-moenchengladbach/liveticker
+9,2026-11-07,,Saturday 7 November,14:30,,Borussia Dortmund,Elversberg,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/9/borussia-dortmund-vs-sv-elversberg/liveticker
+9,2026-11-07,,Saturday 7 November,14:30,,Mainz,Bayern Munich,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/9/1-fsv-mainz-05-vs-fc-bayern-muenchen/liveticker
+9,2026-11-07,,Saturday 7 November,14:30,,Paderborn,Eintracht Frankfurt,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/9/sc-paderborn-07-vs-eintracht-frankfurt/liveticker
+9,2026-11-07,,Saturday 7 November,14:30,,RB Leipzig,Augsburg,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/9/rb-leipzig-vs-fc-augsburg/liveticker
+9,2026-11-07,,Saturday 7 November,17:30,,VfB Stuttgart,Werder Bremen,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/9/vfb-stuttgart-vs-sv-werder-bremen/liveticker
+9,2026-11-08,,Sunday 8 November,14:30,,Cologne,Bayer Leverkusen,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/9/1-fc-koeln-vs-bayer-04-leverkusen/liveticker
+9,2026-11-08,,Sunday 8 November,16:30,,Freiburg,Union Berlin,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/9/sport-club-freiburg-vs-1-fc-union-berlin/liveticker
+9,2026-11-08,,Sunday 8 November,18:30,,Hoffenheim,Schalke,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/9/tsg-hoffenheim-vs-fc-schalke-04/liveticker
+10,2026-11-20,,Friday 20 November,19:30,,Bayern Munich,Cologne,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/10/fc-bayern-muenchen-vs-1-fc-koeln/liveticker
+10,2026-11-21,,Saturday 21 November,14:30,,Bayer Leverkusen,Paderborn,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/10/bayer-04-leverkusen-vs-sc-paderborn-07/liveticker
+10,2026-11-21,,Saturday 21 November,14:30,,Borussia Mönchengladbach,Borussia Dortmund,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/10/borussia-moenchengladbach-vs-borussia-dortmund/liveticker
+10,2026-11-21,,Saturday 21 November,14:30,,Eintracht Frankfurt,Hoffenheim,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/10/eintracht-frankfurt-vs-tsg-hoffenheim/liveticker
+10,2026-11-21,,Saturday 21 November,14:30,,Elversberg,Freiburg,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/10/sv-elversberg-vs-sport-club-freiburg/liveticker
+10,2026-11-21,,Saturday 21 November,17:30,,Schalke,VfB Stuttgart,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/10/fc-schalke-04-vs-vfb-stuttgart/liveticker
+10,2026-11-21,,Saturday 21 November,14:30,,Union Berlin,RB Leipzig,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/10/1-fc-union-berlin-vs-rb-leipzig/liveticker
+10,2026-11-22,,Sunday 22 November,14:30,,Augsburg,Mainz,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/10/fc-augsburg-vs-1-fsv-mainz-05/liveticker
+10,2026-11-22,,Sunday 22 November,16:30,,Werder Bremen,Hamburg,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/10/sv-werder-bremen-vs-hamburger-sv/liveticker
+11,2026-11-27,,Friday 27 November,19:30,,Werder Bremen,Borussia Mönchengladbach,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/11/sv-werder-bremen-vs-borussia-moenchengladbach/liveticker
+11,2026-11-28,,Saturday 28 November,14:30,,Cologne,Elversberg,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/11/1-fc-koeln-vs-sv-elversberg/liveticker
+11,2026-11-28,,Saturday 28 November,14:30,,Hamburg,Bayern Munich,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/11/hamburger-sv-vs-fc-bayern-muenchen/liveticker
+11,2026-11-28,,Saturday 28 November,14:30,,Mainz,Union Berlin,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/11/1-fsv-mainz-05-vs-1-fc-union-berlin/liveticker
+11,2026-11-28,,Saturday 28 November,14:30,,Paderborn,Schalke,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/11/sc-paderborn-07-vs-fc-schalke-04/liveticker
+11,2026-11-28,,Saturday 28 November,17:30,,VfB Stuttgart,Eintracht Frankfurt,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/11/vfb-stuttgart-vs-eintracht-frankfurt/liveticker
+11,2026-11-29,,Sunday 29 November,18:30,,Borussia Dortmund,Bayer Leverkusen,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/11/borussia-dortmund-vs-bayer-04-leverkusen/liveticker
+11,2026-11-29,,Sunday 29 November,14:30,,Freiburg,RB Leipzig,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/11/sport-club-freiburg-vs-rb-leipzig/liveticker
+11,2026-11-29,,Sunday 29 November,16:30,,Hoffenheim,Augsburg,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/11/tsg-hoffenheim-vs-fc-augsburg/liveticker
 12,,Friday - Sunday 4 Dec - 6 Dec,Friday - Sunday 4 Dec - 6 Dec,,,Augsburg,Cologne,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/12/fc-augsburg-vs-1-fc-koeln/liveticker
 12,,Friday - Sunday 4 Dec - 6 Dec,Friday - Sunday 4 Dec - 6 Dec,,,Bayer Leverkusen,Borussia Mönchengladbach,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/12/bayer-04-leverkusen-vs-borussia-moenchengladbach/liveticker
 12,,Friday - Sunday 4 Dec - 6 Dec,Friday - Sunday 4 Dec - 6 Dec,,,Bayern Munich,Paderborn,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/12/fc-bayern-muenchen-vs-sc-paderborn-07/liveticker
@@ -296,12 +296,12 @@ round,date,date_range,date_label,kickoff_local,timezone,home,away,home_goals,awa
 33,,Friday - Sunday 14 May - 16 May,Friday - Sunday 14 May - 16 May,,,Paderborn,Union Berlin,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/33/sc-paderborn-07-vs-1-fc-union-berlin/liveticker
 33,,Friday - Sunday 14 May - 16 May,Friday - Sunday 14 May - 16 May,,,VfB Stuttgart,RB Leipzig,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/33/vfb-stuttgart-vs-rb-leipzig/liveticker
 33,,Friday - Sunday 14 May - 16 May,Friday - Sunday 14 May - 16 May,,,Werder Bremen,Schalke,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/33/sv-werder-bremen-vs-fc-schalke-04/liveticker
-34,2027-05-22,,Saturday 22 May,13:30,Europe/Berlin,Augsburg,Hamburg,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/34/fc-augsburg-vs-hamburger-sv/liveticker
-34,2027-05-22,,Saturday 22 May,13:30,Europe/Berlin,Bayern Munich,Eintracht Frankfurt,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/34/fc-bayern-muenchen-vs-eintracht-frankfurt/liveticker
-34,2027-05-22,,Saturday 22 May,13:30,Europe/Berlin,Cologne,Paderborn,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/34/1-fc-koeln-vs-sc-paderborn-07/liveticker
-34,2027-05-22,,Saturday 22 May,13:30,Europe/Berlin,Elversberg,Werder Bremen,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/34/sv-elversberg-vs-sv-werder-bremen/liveticker
-34,2027-05-22,,Saturday 22 May,13:30,Europe/Berlin,Freiburg,Borussia Dortmund,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/34/sport-club-freiburg-vs-borussia-dortmund/liveticker
-34,2027-05-22,,Saturday 22 May,13:30,Europe/Berlin,Mainz,VfB Stuttgart,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/34/1-fsv-mainz-05-vs-vfb-stuttgart/liveticker
-34,2027-05-22,,Saturday 22 May,13:30,Europe/Berlin,RB Leipzig,Hoffenheim,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/34/rb-leipzig-vs-tsg-hoffenheim/liveticker
-34,2027-05-22,,Saturday 22 May,13:30,Europe/Berlin,Schalke,Bayer Leverkusen,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/34/fc-schalke-04-vs-bayer-04-leverkusen/liveticker
-34,2027-05-22,,Saturday 22 May,13:30,Europe/Berlin,Union Berlin,Borussia Mönchengladbach,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/34/1-fc-union-berlin-vs-borussia-moenchengladbach/liveticker
+34,2027-05-22,,Saturday 22 May,13:30,,Augsburg,Hamburg,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/34/fc-augsburg-vs-hamburger-sv/liveticker
+34,2027-05-22,,Saturday 22 May,13:30,,Bayern Munich,Eintracht Frankfurt,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/34/fc-bayern-muenchen-vs-eintracht-frankfurt/liveticker
+34,2027-05-22,,Saturday 22 May,13:30,,Cologne,Paderborn,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/34/1-fc-koeln-vs-sc-paderborn-07/liveticker
+34,2027-05-22,,Saturday 22 May,13:30,,Elversberg,Werder Bremen,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/34/sv-elversberg-vs-sv-werder-bremen/liveticker
+34,2027-05-22,,Saturday 22 May,13:30,,Freiburg,Borussia Dortmund,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/34/sport-club-freiburg-vs-borussia-dortmund/liveticker
+34,2027-05-22,,Saturday 22 May,13:30,,Mainz,VfB Stuttgart,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/34/1-fsv-mainz-05-vs-vfb-stuttgart/liveticker
+34,2027-05-22,,Saturday 22 May,13:30,,RB Leipzig,Hoffenheim,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/34/rb-leipzig-vs-tsg-hoffenheim/liveticker
+34,2027-05-22,,Saturday 22 May,13:30,,Schalke,Bayer Leverkusen,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/34/fc-schalke-04-vs-bayer-04-leverkusen/liveticker
+34,2027-05-22,,Saturday 22 May,13:30,,Union Berlin,Borussia Mönchengladbach,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/34/1-fc-union-berlin-vs-borussia-moenchengladbach/liveticker
