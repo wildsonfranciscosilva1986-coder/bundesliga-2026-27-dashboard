@@ -22,3 +22,20 @@ The 1-X-2, expected-goals, modal-score, BTTS and over-2.5 figures are projection
 See `bundesliga_2026_27_sources_validation.json` for source links, scope, cutoff and validation. Primary source: [Bundesliga official fixtures and table](https://www.bundesliga.com/en/bundesliga/matchday). Independent checks: [Sofascore](https://www.sofascore.com/football/tournament/germany/bundesliga/35) and [ESPN standings](https://www.espn.com/soccer/standings/_/league/ger.1).
 
 `index.html` is self-contained. The CSV preserves the schedule/results rows and the JSON documents sources, cutoff, rules and validation.
+
+## Overview and league rules
+
+The overview now shows 18 clubs, completed/total fixtures, total and mean goals, BTTS and over-2.5 numerator/denominator/rates, home wins/draws/away wins, and the exact result/table cutoff. The overview also includes upcoming fixtures. European qualification zones reflect the confirmed official 2026/27 allocation (places 1–4 Champions League, 5–6 Europa League, 7 Conference League qualifying); the relegation zone reflects the official two-leg playoff for 16th and direct relegation for 17th–18th. Sources and nuance are recorded in the JSON and validation record.
+
+## Deterministic rebuild and validation
+
+All dashboard refresh inputs and artifacts are kept in this repository:
+
+- `bundesliga_2026_27_results_verified.csv` — official fixtures and only confirmed final scores.
+- `bundesliga_2026_27_sources_validation.json` — source snapshots, exact cutoff, rules and standings validation data.
+- `bundesliga_2026_27_dashboard_template.html` — responsive, self-contained dashboard template.
+- `build_bundesliga_2026_dashboard.py` — deterministic offline validator and builder (standard Python only).
+- `bundesliga_2026_27_dashboard.html` / `index.html` — generated dashboard (self-contained page).
+- `bundesliga_2026_27_validation.txt` — readable validation, sources and refresh procedure.
+
+Run `python3 build_bundesliga_2026_dashboard.py` from the repository root after updating source data and validation metadata. The build is intentionally offline and fails closed if fixture coverage, score/status consistency, league table computation or the independent table-check flag fails. Review and update the validation record, then replace `index.html` with the generated `bundesliga_2026_27_dashboard.html` before publishing. No scheduled refresh/cron is configured.
