@@ -1,21 +1,21 @@
 Bundesliga 2026/27 Dashboard — Validation Record
 
-Result/table cutoff: 2026-10-18 10:52 America/Sao_Paulo.
+Result/table cutoff: 2026-10-19 08:16 America/Sao_Paulo.
 Fixture schedule snapshots for matchdays 8–34 retrieved 10:59–11:00 BRT on the same date. Kickoff labels are copied as the source displayed them; the source pages captured do not specify a timezone.
 
 Coverage at the result cutoff
 - 306 official fixture pairings: 9 fixtures in each of the 34 matchdays; 18 unique clubs; each club has 17 home and 17 away fixtures.
-- 52 confirmed final scores: all 45 matches in rounds 1–5, plus seven completed round-6 fixtures through 17 October.
-- Two round-6 Sunday fixtures were unfinished at the result cutoff. CSV score fields are blank for both.
+- 54 confirmed final scores: all 45 matches in rounds 1–5 and all nine round-6 fixtures.
+- The two Sunday round-6 fixtures that were unfinished at the prior cutoff are now confirmed final by the official DFL page.
 - All later fixtures are schedule-only. Exact future dates are present only when the official matchday source gives them. Date ranges are retained without guessing specific dates. The captured pages had no date for rounds 16 and 24.
 
 Validation performed by build_bundesliga_2026_dashboard.py
 - PASS: CSV columns and score/status consistency.
 - PASS: exactly 306 unique fixtures, 9 per round, each club appears once per round, 17 home + 17 away fixtures per club.
 - PASS: no score on an unfinished/scheduled match; every finished score is a nonnegative integer.
-- PASS: independently computed MP, W-D-L, GF, GA, GD, points and table position for all 18 clubs match the stored official Bundesliga standings snapshot.
-- PASS: official standings snapshot was independently cross-checked against ESPN's 2026/27 table (18 clubs, order and table totals).
-- PASS: the seven finished matchday-6 scorelines are independently spot-checked against Sofascore.
+- PASS: independently computed MP, W-D-L, GF, GA, GD, points and table position for all 18 clubs match the current official DFL live table.
+- PASS: ESPN independently confirms all nine round-6 scorelines; the previously saved 52-result table cross-check remains in the audit metadata.
+- PASS: prior round-6 score checks against Sofascore are retained.
 - PASS: overview KPIs (club/match counts, goals/mean, BTTS and O2.5 numerator/denominator/rate, home/draw/away counts and cutoff), standings, next fixtures, team profile, home/away splits, last five, H2H and model projection sections; responsive mobile layout.
 - PASS: 2026/27 European allocation and relegation rules verified against official Bundesliga sources.
 - PASS: deterministic build from CSV + JSON metadata + template; no network access or external Python dependencies.
@@ -24,7 +24,7 @@ Validation performed by build_bundesliga_2026_dashboard.py
 - European qualification (official 2026/27 allocation): league positions 1–4 qualify for the Champions League, 5–6 for the Europa League, and 7 for the Conference League qualification play-offs. The Bundesliga official 2026/27 qualifiers report explicitly lists 5th-placed Hoffenheim and 6th-placed Bayer Leverkusen in the Europa League, 7th-placed Freiburg in the Conference League qualifying play-offs, and the four Champions League clubs. Cup/UEFA reallocation can vary by season; this allocation matches the 2026/27 official entry list.
 - Relegation (official Bundesliga FAQ): positions 17–18 are directly relegated; position 16 faces the 2. Bundesliga third-place club over two legs.
 
-Overview KPIs are computed from the 52 final rows only: completed/total fixtures, total and mean goals, BTTS and over-2.5 numerators/denominator/rates, and home/draw/away outcomes. Next-fixture preview is drawn from uncompleted published fixture rows only.
+Overview KPIs are computed from the 54 final rows only: completed/total fixtures, total and mean goals, BTTS and over-2.5 numerators/denominator/rates, and home/draw/away outcomes. Next-fixture preview is drawn from uncompleted published fixture rows only.
 
 Primary sources
 - Bundesliga official table: https://www.bundesliga.com/en/bundesliga/table
