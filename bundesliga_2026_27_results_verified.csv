@@ -51,8 +51,8 @@ round,date,date_range,date_label,kickoff_time,timezone,home,away,home_goals,away
 6,2026-10-17,,Saturday 17 October,,,Schalke,Mainz,0,1,finished,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/6/fc-schalke-04-vs-1-fsv-mainz-05/liveticker
 6,2026-10-17,,Saturday 17 October,,,Union Berlin,Borussia Dortmund,0,0,finished,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/6/1-fc-union-berlin-vs-borussia-dortmund/liveticker
 6,2026-10-17,,Saturday 17 October,,,Werder Bremen,Paderborn,2,2,finished,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/6/sv-werder-bremen-vs-sc-paderborn-07/liveticker
-6,2026-10-18,,Sunday 18 October,13:30,,Bayer Leverkusen,Freiburg,,,unfinished_at_cutoff,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/6/bayer-04-leverkusen-vs-sport-club-freiburg/liveticker
-6,2026-10-18,,Sunday 18 October,15:30,,Borussia Mönchengladbach,Hoffenheim,,,unfinished_at_cutoff,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/6/borussia-moenchengladbach-vs-tsg-hoffenheim/liveticker
+6,2026-10-18,,Sunday 18 October,13:30,,Bayer Leverkusen,Freiburg,2,1,finished,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/6/bayer-04-leverkusen-vs-sport-club-freiburg/liveticker
+6,2026-10-18,,Sunday 18 October,15:30,,Borussia Mönchengladbach,Hoffenheim,1,2,finished,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/6/borussia-moenchengladbach-vs-tsg-hoffenheim/liveticker
 7,2026-10-23,,Friday 23 October,18:30,,VfB Stuttgart,Borussia Mönchengladbach,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/7/vfb-stuttgart-vs-borussia-moenchengladbach/liveticker
 7,2026-10-24,,Saturday 24 October,13:30,,Augsburg,Union Berlin,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/7/fc-augsburg-vs-1-fc-union-berlin/liveticker
 7,2026-10-24,,Saturday 24 October,16:30,,Borussia Dortmund,Eintracht Frankfurt,,,scheduled,https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/7/borussia-dortmund-vs-eintracht-frankfurt/liveticker
