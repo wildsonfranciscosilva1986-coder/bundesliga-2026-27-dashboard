@@ -1,0 +1,581 @@
+{
+  "url": "https://www.bundesliga.com/en/bundesliga/matchday/2026-2027/6",
+  "retrieved_at": "2026-10-19 08:16 America/Sao_Paulo",
+  "matches": [
+    {
+      "dflDatalibraryCompetitionId": "DFL-COM-000001",
+      "dflDatalibraryMatchId": "DFL-MAT-J043HM",
+      "dflDatalibraryMatchdayId": "DFL-DAY-004CBY",
+      "dflDatalibrarySeasonId": "DFL-SEA-0001KA",
+      "en": {
+        "highlightVideo": {
+          "videoId": "ZCBEJs0O"
+        }
+      },
+      "kickOff": "2026-10-16T18:30:04+0000",
+      "matchDateFixed": true,
+      "matchId": "DFL-MAT-J043HM",
+      "matchStatus": "FINAL_WHISTLE",
+      "matchday": 6,
+      "matchdayRange": {
+        "end": "2026-10-18T00:00:00+0000",
+        "start": "2026-10-16T00:00:00+0000"
+      },
+      "minuteOfPlay": {
+        "injuryTime": 5,
+        "minute": 90
+      },
+      "plannedKickOff": "2026-10-16T18:30:00+0000",
+      "score": {
+        "away": {
+          "fulltime": 0,
+          "halftime": 0,
+          "live": 0
+        },
+        "home": {
+          "fulltime": 1,
+          "halftime": 0,
+          "live": 1
+        }
+      },
+      "seasonOrder": 46,
+      "slugs": {
+        "slugLong": "eintracht-frankfurt-vs-1-fc-koeln"
+      },
+      "teams": {
+        "away": {
+          "dflDatalibraryClubId": "DFL-CLU-000008",
+          "gradientEndColor": "#FF0000",
+          "gradientStartColor": "#FF0000",
+          "logoUrl": "https://assets.bundesliga.com/clublogos/DFL-SEA-0001KA/DFL-CLU-000008.svg",
+          "nameFull": "1. FC Köln",
+          "nameShort": "Köln",
+          "textColor": "#FFFFFF",
+          "threeLetterCode": "KOE"
+        },
+        "home": {
+          "dflDatalibraryClubId": "DFL-CLU-00000F",
+          "gradientEndColor": "#000000",
+          "gradientStartColor": "#000000",
+          "logoUrl": "https://assets.bundesliga.com/clublogos/DFL-SEA-0001KA/DFL-CLU-00000F.svg",
+          "nameFull": "Eintracht Frankfurt",
+          "nameShort": "Frankfurt",
+          "textColor": "#FFFFFF",
+          "threeLetterCode": "SGE"
+        }
+      }
+    },
+    {
+      "dflDatalibraryCompetitionId": "DFL-COM-000001",
+      "dflDatalibraryMatchId": "DFL-MAT-J043HS",
+      "dflDatalibraryMatchdayId": "DFL-DAY-004CBY",
+      "dflDatalibrarySeasonId": "DFL-SEA-0001KA",
+      "en": {
+        "highlightVideo": {
+          "duration": 66,
+          "videoId": "ymS90TNe"
+        }
+      },
+      "kickOff": "2026-10-17T13:30:18+0000",
+      "matchDateFixed": true,
+      "matchId": "DFL-MAT-J043HS",
+      "matchStatus": "FINAL_WHISTLE",
+      "matchday": 6,
+      "matchdayRange": {
+        "end": "2026-10-18T00:00:00+0000",
+        "start": "2026-10-16T00:00:00+0000"
+      },
+      "minuteOfPlay": {
+        "injuryTime": 10,
+        "minute": 90
+      },
+      "plannedKickOff": "2026-10-17T13:30:00+0000",
+      "score": {
+        "away": {
+          "fulltime": 3,
+          "halftime": 1,
+          "live": 3
+        },
+        "home": {
+          "fulltime": 4,
+          "halftime": 3,
+          "live": 4
+        }
+      },
+      "seasonOrder": 51,
+      "slugs": {
+        "slugLong": "sv-elversberg-vs-fc-augsburg"
+      },
+      "teams": {
+        "away": {
+          "dflDatalibraryClubId": "DFL-CLU-000010",
+          "gradientEndColor": "#00462d",
+          "gradientStartColor": "#00462d",
+          "logoUrl": "https://assets.bundesliga.com/clublogos/DFL-SEA-0001KA/DFL-CLU-000010.svg",
+          "nameFull": "FC Augsburg",
+          "nameShort": "Augsburg",
+          "textColor": "#FFFFFF",
+          "threeLetterCode": "FCA"
+        },
+        "home": {
+          "dflDatalibraryClubId": "DFL-CLU-000N6L",
+          "gradientEndColor": "#D2BE8C",
+          "gradientStartColor": "#D2BE8C",
+          "logoUrl": "https://assets.bundesliga.com/clublogos/DFL-SEA-0001KA/DFL-CLU-000N6L.svg",
+          "nameFull": "SV Elversberg",
+          "nameShort": "Elversberg",
+          "textColor": "#000000",
+          "threeLetterCode": "ELV"
+        }
+      }
+    },
+    {
+      "dflDatalibraryCompetitionId": "DFL-COM-000001",
+      "dflDatalibraryMatchId": "DFL-MAT-J043HR",
+      "dflDatalibraryMatchdayId": "DFL-DAY-004CBY",
+      "dflDatalibrarySeasonId": "DFL-SEA-0001KA",
+      "en": {
+        "highlightVideo": {
+          "duration": 65,
+          "videoId": "88kbkfds"
+        }
+      },
+      "kickOff": "2026-10-17T13:30:04+0000",
+      "matchDateFixed": true,
+      "matchId": "DFL-MAT-J043HR",
+      "matchStatus": "FINAL_WHISTLE",
+      "matchday": 6,
+      "matchdayRange": {
+        "end": "2026-10-18T00:00:00+0000",
+        "start": "2026-10-16T00:00:00+0000"
+      },
+      "minuteOfPlay": {
+        "injuryTime": 5,
+        "minute": 90
+      },
+      "plannedKickOff": "2026-10-17T13:30:00+0000",
+      "score": {
+        "away": {
+          "fulltime": 1,
+          "halftime": 1,
+          "live": 1
+        },
+        "home": {
+          "fulltime": 0,
+          "halftime": 0,
+          "live": 0
+        }
+      },
+      "seasonOrder": 50,
+      "slugs": {
+        "slugLong": "fc-schalke-04-vs-1-fsv-mainz-05"
+      },
+      "teams": {
+        "away": {
+          "dflDatalibraryClubId": "DFL-CLU-000006",
+          "gradientEndColor": "#E30613",
+          "gradientStartColor": "#E30613",
+          "logoUrl": "https://assets.bundesliga.com/clublogos/DFL-SEA-0001KA/DFL-CLU-000006.svg",
+          "nameFull": "1. FSV Mainz 05",
+          "nameShort": "Mainz",
+          "textColor": "#FFFFFF",
+          "threeLetterCode": "M05"
+        },
+        "home": {
+          "dflDatalibraryClubId": "DFL-CLU-000009",
+          "gradientEndColor": "#004b9c",
+          "gradientStartColor": "#004b9c",
+          "logoUrl": "https://assets.bundesliga.com/clublogos/DFL-SEA-0001KA/DFL-CLU-000009.svg",
+          "nameFull": "FC Schalke 04",
+          "nameShort": "Schalke",
+          "textColor": "#FFFFFF",
+          "threeLetterCode": "S04"
+        }
+      }
+    },
+    {
+      "dflDatalibraryCompetitionId": "DFL-COM-000001",
+      "dflDatalibraryMatchId": "DFL-MAT-J043HQ",
+      "dflDatalibraryMatchdayId": "DFL-DAY-004CBY",
+      "dflDatalibrarySeasonId": "DFL-SEA-0001KA",
+      "en": {
+        "highlightVideo": {
+          "duration": 71,
+          "videoId": "b9pl2TFT"
+        }
+      },
+      "kickOff": "2026-10-17T13:30:35+0000",
+      "matchDateFixed": true,
+      "matchId": "DFL-MAT-J043HQ",
+      "matchStatus": "FINAL_WHISTLE",
+      "matchday": 6,
+      "matchdayRange": {
+        "end": "2026-10-18T00:00:00+0000",
+        "start": "2026-10-16T00:00:00+0000"
+      },
+      "minuteOfPlay": {
+        "injuryTime": 5,
+        "minute": 90
+      },
+      "plannedKickOff": "2026-10-17T13:30:00+0000",
+      "score": {
+        "away": {
+          "fulltime": 2,
+          "halftime": 2,
+          "live": 2
+        },
+        "home": {
+          "fulltime": 2,
+          "halftime": 0,
+          "live": 2
+        }
+      },
+      "seasonOrder": 49,
+      "slugs": {
+        "slugLong": "sv-werder-bremen-vs-sc-paderborn-07"
+      },
+      "teams": {
+        "away": {
+          "dflDatalibraryClubId": "DFL-CLU-00000L",
+          "gradientEndColor": "#006DB3",
+          "gradientStartColor": "#006DB3",
+          "logoUrl": "https://assets.bundesliga.com/clublogos/DFL-SEA-0001KA/DFL-CLU-00000L.svg",
+          "nameFull": "SC Paderborn 07",
+          "nameShort": "Paderborn",
+          "textColor": "#FFFFFF",
+          "threeLetterCode": "SCP"
+        },
+        "home": {
+          "dflDatalibraryClubId": "DFL-CLU-00000E",
+          "gradientEndColor": "#008149",
+          "gradientStartColor": "#008149",
+          "logoUrl": "https://assets.bundesliga.com/clublogos/DFL-SEA-0001KA/DFL-CLU-00000E.svg",
+          "nameFull": "SV Werder Bremen",
+          "nameShort": "Bremen",
+          "textColor": "#FFFFFF",
+          "threeLetterCode": "SVW"
+        }
+      }
+    },
+    {
+      "dflDatalibraryCompetitionId": "DFL-COM-000001",
+      "dflDatalibraryMatchId": "DFL-MAT-J043HP",
+      "dflDatalibraryMatchdayId": "DFL-DAY-004CBY",
+      "dflDatalibrarySeasonId": "DFL-SEA-0001KA",
+      "en": {
+        "highlightVideo": {
+          "duration": 67,
+          "videoId": "U2iqSqzF"
+        }
+      },
+      "kickOff": "2026-10-17T13:30:27+0000",
+      "matchDateFixed": true,
+      "matchId": "DFL-MAT-J043HP",
+      "matchStatus": "FINAL_WHISTLE",
+      "matchday": 6,
+      "matchdayRange": {
+        "end": "2026-10-18T00:00:00+0000",
+        "start": "2026-10-16T00:00:00+0000"
+      },
+      "minuteOfPlay": {
+        "injuryTime": 4,
+        "minute": 90
+      },
+      "plannedKickOff": "2026-10-17T13:30:00+0000",
+      "score": {
+        "away": {
+          "fulltime": 0,
+          "halftime": 0,
+          "live": 0
+        },
+        "home": {
+          "fulltime": 1,
+          "halftime": 0,
+          "live": 1
+        }
+      },
+      "seasonOrder": 48,
+      "slugs": {
+        "slugLong": "hamburger-sv-vs-vfb-stuttgart"
+      },
+      "teams": {
+        "away": {
+          "dflDatalibraryClubId": "DFL-CLU-00000D",
+          "gradientEndColor": "#FFFFFF",
+          "gradientStartColor": "#FFFFFF",
+          "logoUrl": "https://assets.bundesliga.com/clublogos/DFL-SEA-0001KA/DFL-CLU-00000D.svg",
+          "nameFull": "VfB Stuttgart",
+          "nameShort": "Stuttgart",
+          "textColor": "#000000",
+          "threeLetterCode": "VFB"
+        },
+        "home": {
+          "dflDatalibraryClubId": "DFL-CLU-00000C",
+          "gradientEndColor": "#005AAA",
+          "gradientStartColor": "#005AAA",
+          "logoUrl": "https://assets.bundesliga.com/clublogos/DFL-SEA-0001KA/DFL-CLU-00000C.svg",
+          "nameFull": "Hamburger SV",
+          "nameShort": "Hamburg",
+          "textColor": "#FFFFFF",
+          "threeLetterCode": "HSV"
+        }
+      }
+    },
+    {
+      "dflDatalibraryCompetitionId": "DFL-COM-000001",
+      "dflDatalibraryMatchId": "DFL-MAT-J043HN",
+      "dflDatalibraryMatchdayId": "DFL-DAY-004CBY",
+      "dflDatalibrarySeasonId": "DFL-SEA-0001KA",
+      "en": {
+        "highlightVideo": {
+          "duration": 64,
+          "videoId": "R9rGirga"
+        }
+      },
+      "kickOff": "2026-10-17T13:30:06+0000",
+      "matchDateFixed": true,
+      "matchId": "DFL-MAT-J043HN",
+      "matchStatus": "FINAL_WHISTLE",
+      "matchday": 6,
+      "matchdayRange": {
+        "end": "2026-10-18T00:00:00+0000",
+        "start": "2026-10-16T00:00:00+0000"
+      },
+      "minuteOfPlay": {
+        "injuryTime": 6,
+        "minute": 90
+      },
+      "plannedKickOff": "2026-10-17T13:30:00+0000",
+      "score": {
+        "away": {
+          "fulltime": 0,
+          "halftime": 0,
+          "live": 0
+        },
+        "home": {
+          "fulltime": 0,
+          "halftime": 0,
+          "live": 0
+        }
+      },
+      "seasonOrder": 47,
+      "slugs": {
+        "slugLong": "1-fc-union-berlin-vs-borussia-dortmund"
+      },
+      "teams": {
+        "away": {
+          "dflDatalibraryClubId": "DFL-CLU-000007",
+          "gradientEndColor": "#FFD900",
+          "gradientStartColor": "#FFD900",
+          "logoUrl": "https://assets.bundesliga.com/clublogos/DFL-SEA-0001KA/DFL-CLU-000007.svg",
+          "nameFull": "Borussia Dortmund",
+          "nameShort": "Dortmund",
+          "textColor": "#000000",
+          "threeLetterCode": "BVB"
+        },
+        "home": {
+          "dflDatalibraryClubId": "DFL-CLU-00000V",
+          "gradientEndColor": "#E30613",
+          "gradientStartColor": "#E30613",
+          "logoUrl": "https://assets.bundesliga.com/clublogos/DFL-SEA-0001KA/DFL-CLU-00000V.svg",
+          "nameFull": "1. FC Union Berlin",
+          "nameShort": "Union Berlin",
+          "textColor": "#FFFFFF",
+          "threeLetterCode": "FCU"
+        }
+      }
+    },
+    {
+      "dflDatalibraryCompetitionId": "DFL-COM-000001",
+      "dflDatalibraryMatchId": "DFL-MAT-J043HK",
+      "dflDatalibraryMatchdayId": "DFL-DAY-004CBY",
+      "dflDatalibrarySeasonId": "DFL-SEA-0001KA",
+      "en": {
+        "highlightVideo": {
+          "duration": 68,
+          "videoId": "a4Lz52e6"
+        }
+      },
+      "kickOff": "2026-10-17T16:31:48+0000",
+      "matchDateFixed": true,
+      "matchId": "DFL-MAT-J043HK",
+      "matchStatus": "FINAL_WHISTLE",
+      "matchday": 6,
+      "matchdayRange": {
+        "end": "2026-10-18T00:00:00+0000",
+        "start": "2026-10-16T00:00:00+0000"
+      },
+      "minuteOfPlay": {
+        "injuryTime": 4,
+        "minute": 90
+      },
+      "plannedKickOff": "2026-10-17T16:30:00+0000",
+      "score": {
+        "away": {
+          "fulltime": 1,
+          "halftime": 0,
+          "live": 1
+        },
+        "home": {
+          "fulltime": 6,
+          "halftime": 3,
+          "live": 6
+        }
+      },
+      "seasonOrder": 52,
+      "slugs": {
+        "slugLong": "fc-bayern-muenchen-vs-rb-leipzig"
+      },
+      "teams": {
+        "away": {
+          "dflDatalibraryClubId": "DFL-CLU-000017",
+          "gradientEndColor": "#FFFFFF",
+          "gradientStartColor": "#FFFFFF",
+          "logoUrl": "https://assets.bundesliga.com/clublogos/DFL-SEA-0001KA/DFL-CLU-000017.svg",
+          "nameFull": "RB Leipzig",
+          "nameShort": "Leipzig",
+          "textColor": "#000000",
+          "threeLetterCode": "RBL"
+        },
+        "home": {
+          "dflDatalibraryClubId": "DFL-CLU-00000G",
+          "gradientEndColor": "#ed0037",
+          "gradientStartColor": "#ed0037",
+          "logoUrl": "https://assets.bundesliga.com/clublogos/DFL-SEA-0001KA/DFL-CLU-00000G.svg",
+          "nameFull": "FC Bayern München",
+          "nameShort": "Bayern",
+          "textColor": "#FFFFFF",
+          "threeLetterCode": "FCB"
+        }
+      }
+    },
+    {
+      "dflDatalibraryCompetitionId": "DFL-COM-000001",
+      "dflDatalibraryMatchId": "DFL-MAT-J043HL",
+      "dflDatalibraryMatchdayId": "DFL-DAY-004CBY",
+      "dflDatalibrarySeasonId": "DFL-SEA-0001KA",
+      "en": {
+        "highlightVideo": {
+          "duration": 62,
+          "videoId": "I7gSccn5"
+        }
+      },
+      "kickOff": "2026-10-18T13:30:06+0000",
+      "matchDateFixed": true,
+      "matchId": "DFL-MAT-J043HL",
+      "matchStatus": "FINAL_WHISTLE",
+      "matchday": 6,
+      "matchdayRange": {
+        "end": "2026-10-18T00:00:00+0000",
+        "start": "2026-10-16T00:00:00+0000"
+      },
+      "minuteOfPlay": {
+        "injuryTime": 4,
+        "minute": 90
+      },
+      "plannedKickOff": "2026-10-18T13:30:00+0000",
+      "score": {
+        "away": {
+          "fulltime": 1,
+          "halftime": 1,
+          "live": 1
+        },
+        "home": {
+          "fulltime": 2,
+          "halftime": 1,
+          "live": 2
+        }
+      },
+      "seasonOrder": 53,
+      "slugs": {
+        "slugLong": "bayer-04-leverkusen-vs-sport-club-freiburg"
+      },
+      "teams": {
+        "away": {
+          "dflDatalibraryClubId": "DFL-CLU-00000A",
+          "gradientEndColor": "#E4002B",
+          "gradientStartColor": "#E4002B",
+          "logoUrl": "https://assets.bundesliga.com/clublogos/DFL-SEA-0001KA/DFL-CLU-00000A.svg",
+          "nameFull": "Sport-Club Freiburg",
+          "nameShort": "Freiburg",
+          "textColor": "#FFFFFF",
+          "threeLetterCode": "SCF"
+        },
+        "home": {
+          "dflDatalibraryClubId": "DFL-CLU-00000B",
+          "gradientEndColor": "#FF0000",
+          "gradientStartColor": "#FF0000",
+          "logoUrl": "https://assets.bundesliga.com/clublogos/DFL-SEA-0001KA/DFL-CLU-00000B.svg",
+          "nameFull": "Bayer 04 Leverkusen",
+          "nameShort": "Leverkusen",
+          "textColor": "#FFFFFF",
+          "threeLetterCode": "B04"
+        }
+      }
+    },
+    {
+      "dflDatalibraryCompetitionId": "DFL-COM-000001",
+      "dflDatalibraryMatchId": "DFL-MAT-J043HO",
+      "dflDatalibraryMatchdayId": "DFL-DAY-004CBY",
+      "dflDatalibrarySeasonId": "DFL-SEA-0001KA",
+      "en": {
+        "highlightVideo": {
+          "duration": 59,
+          "videoId": "9xFNwAmJ"
+        }
+      },
+      "kickOff": "2026-10-18T15:31:20+0000",
+      "matchDateFixed": true,
+      "matchId": "DFL-MAT-J043HO",
+      "matchStatus": "FINAL_WHISTLE",
+      "matchday": 6,
+      "matchdayRange": {
+        "end": "2026-10-18T00:00:00+0000",
+        "start": "2026-10-16T00:00:00+0000"
+      },
+      "minuteOfPlay": {
+        "injuryTime": 4,
+        "minute": 90
+      },
+      "plannedKickOff": "2026-10-18T15:30:00+0000",
+      "score": {
+        "away": {
+          "fulltime": 2,
+          "halftime": 1,
+          "live": 2
+        },
+        "home": {
+          "fulltime": 1,
+          "halftime": 0,
+          "live": 1
+        }
+      },
+      "seasonOrder": 54,
+      "slugs": {
+        "slugLong": "borussia-moenchengladbach-vs-tsg-hoffenheim"
+      },
+      "teams": {
+        "away": {
+          "dflDatalibraryClubId": "DFL-CLU-000002",
+          "gradientEndColor": "#0a4baf",
+          "gradientStartColor": "#0a4baf",
+          "logoUrl": "https://assets.bundesliga.com/clublogos/DFL-SEA-0001KA/DFL-CLU-000002.svg",
+          "nameFull": "TSG Hoffenheim",
+          "nameShort": "Hoffenheim",
+          "textColor": "#FFFFFF",
+          "threeLetterCode": "TSG"
+        },
+        "home": {
+          "dflDatalibraryClubId": "DFL-CLU-000004",
+          "gradientEndColor": "#000000",
+          "gradientStartColor": "#000000",
+          "logoUrl": "https://assets.bundesliga.com/clublogos/DFL-SEA-0001KA/DFL-CLU-000004.svg",
+          "nameFull": "Borussia Mönchengladbach",
+          "nameShort": "M'gladbach",
+          "textColor": "#FFFFFF",
+          "threeLetterCode": "BMG"
+        }
+      }
+    }
+  ]
+}
