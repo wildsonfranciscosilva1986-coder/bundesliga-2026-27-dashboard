@@ -45,8 +45,8 @@
     "teams": 18,
     "completed_matches": 54,
     "table_compute": "PASS: all 18 score-derived records match the current official DFL live table.",
-    "independent_table": "PASS: new round-6 finals independently match ESPN; prior score/table cross-checks retained.",
-    "result_crosscheck": "PASS: DFL round-6 official final scores cross-checked against ESPN scoreboard; earlier score checks retained.",
+    "independent_table": "PASS: the score-derived 54-final table matches the current ESPN 2026/27 standings for all 18 clubs; ESPN match reports independently confirm the two Sunday 18 October finals; prior score/table cross-checks are retained.",
+    "result_crosscheck": "PASS: DFL official Matchday 6 page confirms all 9 final scores. ESPN independently confirms the two Sunday 18 October finals (Leverkusen 2-1 Freiburg; Borussia Mönchengladbach 1-2 Hoffenheim); earlier score checks against Sofascore remain. This does not claim that ESPN match reports were checked for all 54 results.",
     "european_rules": "PASS: Official Bundesliga 2026/27 European-qualification article confirms league positions 1–4 as Champions League, 5–6 as Europa League and 7 as Conference League qualifying play-offs (2026/27 entrant list).",
     "relegation_rules": "PASS: Official Bundesliga FAQ confirms 16th place and 2. Bundesliga third place contest a two-leg promotion/relegation playoff; last two places are the automatic movers (two automatic promotion/relegation places)."
   },

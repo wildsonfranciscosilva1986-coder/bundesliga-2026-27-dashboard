@@ -14,7 +14,7 @@ Validation performed by build_bundesliga_2026_dashboard.py
 - PASS: exactly 306 unique fixtures, 9 per round, each club appears once per round, 17 home + 17 away fixtures per club.
 - PASS: no score on an unfinished/scheduled match; every finished score is a nonnegative integer.
 - PASS: independently computed MP, W-D-L, GF, GA, GD, points and table position for all 18 clubs match the current official DFL live table.
-- PASS: ESPN independently confirms all nine round-6 scorelines; the previously saved 52-result table cross-check remains in the audit metadata.
+- PASS: ESPN independently confirms the two Sunday 18 October round-6 scorelines; earlier score checks against Sofascore remain. ESPN standings match the score-derived table for all 18 clubs. This does not mean that ESPN match reports were checked for all 54 results.
 - PASS: prior round-6 score checks against Sofascore are retained.
 - PASS: overview KPIs (club/match counts, goals/mean, BTTS and O2.5 numerator/denominator/rate, home/draw/away counts and cutoff), standings, next fixtures, team profile, home/away splits, last five, H2H and model projection sections; responsive mobile layout.
 - PASS: 2026/27 European allocation and relegation rules verified against official Bundesliga sources.
