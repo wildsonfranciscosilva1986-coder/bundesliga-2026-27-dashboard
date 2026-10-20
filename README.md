@@ -5,11 +5,12 @@ Standalone, mobile-first Bundesliga-only dashboard. It does not include Brasilei
 ## Data snapshot
 
 - Results/table cutoff: 19 October 2026, 08:16 America/Sao_Paulo.
-- Full fixture schedule: all 34 rounds / 306 official pairings from Bundesliga matchday pages; the pages for matchdays 8–34 were retrieved 10:59–11:00 BRT on 18 October.
+- Current DFL table and Matchday 6 result snapshot: 19 October 2026, 08:16 BRT.
+- Full fixture schedule: all 34 rounds / 306 official pairings from Bundesliga matchday pages; snapshots for matchdays 8–34 were retrieved 19 October 2026, 10:59–11:00 BRT.
 - Final scores: 54 confirmed results through the complete round 6; all 9 round-6 fixtures are final.
-- Future results are never inferred. The source only publishes date ranges for several rounds; those are preserved as ranges, and no precise date is guessed. Rounds 16 and 24 have no date in the snapshots used.
+- Future results are never inferred. The source publishes date ranges for several rounds; those are preserved as ranges, and no precise date is guessed. Rounds 16 and 24 have no date in the snapshots used.
 - Kickoff times are copied exactly from official fixture cards, but the captured cards do not label a timezone, so the dashboard labels them as source times rather than converting them.
-- The Bundesliga table is recomputed from confirmed finals and matches the current official DFL table for all 18 clubs. The two newly completed Sunday round-6 results were cross-checked against ESPN; earlier score checks against Sofascore remain in the audit record.
+- The Bundesliga table is recomputed from confirmed finals and matches the current official DFL table for all 18 clubs; ESPN standings independently match all 18. ESPN match-report checks confirm only the two Sunday round-6 results; earlier result checks against Sofascore remain.
 
 ## Dashboard features
 
@@ -25,7 +26,7 @@ See `bundesliga_2026_27_sources_validation.json` for source links, scope, cutoff
 
 ## Overview and league rules
 
-The overview now shows 18 clubs, completed/total fixtures, total and mean goals, BTTS and over-2.5 numerator/denominator/rates, home wins/draws/away wins, and the exact result/table cutoff. The overview also includes upcoming fixtures. European qualification zones reflect the confirmed official 2026/27 allocation (places 1–4 Champions League, 5–6 Europa League, 7 Conference League qualifying); the relegation zone reflects the official two-leg playoff for 16th and direct relegation for 17th–18th. Sources and nuance are recorded in the JSON and validation record.
+The overview shows 18 clubs, completed/total fixtures, total and mean goals, BTTS and over-2.5 numerator/denominator/rates, home wins/draws/away wins, and the exact result/table cutoff. The overview also includes upcoming fixtures. European qualification zones reflect the confirmed official 2026/27 allocation (places 1–4 Champions League, 5–6 Europa League, 7 Conference League qualifying); the relegation zone reflects the official two-leg playoff for 16th and direct relegation for 17th–18th. Sources and nuance are recorded in the JSON and validation record.
 
 ## Deterministic rebuild and validation
 

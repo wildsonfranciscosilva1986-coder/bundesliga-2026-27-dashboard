@@ -1,7 +1,7 @@
 Bundesliga 2026/27 Dashboard — Validation Record
 
 Result/table cutoff: 2026-10-19 08:16 America/Sao_Paulo.
-Fixture schedule snapshots for matchdays 8–34 retrieved 10:59–11:00 BRT on the same date. Kickoff labels are copied as the source displayed them; the source pages captured do not specify a timezone.
+Fixture schedule snapshots for matchdays 8–34 retrieved 19 October 2026, 10:59–11:00 BRT; the current table and Matchday 6 result snapshot is dated 08:16 BRT. Kickoff labels are copied as the source displayed them; the source pages captured do not specify a timezone.
 
 Coverage at the result cutoff
 - 306 official fixture pairings: 9 fixtures in each of the 34 matchdays; 18 unique clubs; each club has 17 home and 17 away fixtures.
@@ -14,9 +14,9 @@ Validation performed by build_bundesliga_2026_dashboard.py
 - PASS: exactly 306 unique fixtures, 9 per round, each club appears once per round, 17 home + 17 away fixtures per club.
 - PASS: no score on an unfinished/scheduled match; every finished score is a nonnegative integer.
 - PASS: independently computed MP, W-D-L, GF, GA, GD, points and table position for all 18 clubs match the current official DFL live table.
-- PASS: ESPN independently confirms the two Sunday 18 October round-6 scorelines; earlier score checks against Sofascore remain. ESPN standings match the score-derived table for all 18 clubs. This does not mean that ESPN match reports were checked for all 54 results.
+- PASS: ESPN standings match the score-derived table for all 18 clubs; ESPN match-report checks independently confirm only the two Sunday 18 October round-6 scorelines. Earlier score checks against Sofascore remain; no claim is made that ESPN match reports were checked for all 54 results.
 - PASS: prior round-6 score checks against Sofascore are retained.
-- PASS: overview KPIs (club/match counts, goals/mean, BTTS and O2.5 numerator/denominator/rate, home/draw/away counts and cutoff), standings, next fixtures, team profile, home/away splits, last five, H2H and model projection sections; responsive mobile layout.
+- PASS: overview KPIs (club/match counts, goals/mean, BTTS and O2.5 numerator/denominator/rate, home/draw/away counts and cutoff), standings, next fixtures, team profile, home/away splits, last five, H2H and model projection sections; responsive mobile layout. Browser interaction checks run for tabs, filters, club profile selection, matchup selectors and ranking split.
 - PASS: 2026/27 European allocation and relegation rules verified against official Bundesliga sources.
 - PASS: deterministic build from CSV + JSON metadata + template; no network access or external Python dependencies.
 
